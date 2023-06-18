@@ -2,9 +2,239 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Iryna Kramar</h1>
+            <h3 class="contact-info__sub-header">Front-end Developer</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Kyiv, Ukraine</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/myAvatar.png"
+                  alt="Avatar"
+                />
+              </div>
+
+              <div class="contact-info__block">
+                <a
+                  href="https://www.linkedin.com/in/yaryna-kramar/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>yaryna-kramar</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                I development-oriented person with 1.5 years of practice in
+                Front-end. Motivated to learn and progress to achieve set goals
+                and objectives. Very passionate about aesthetics and UI design.
+                Friendly and open mind person, able to effectively self-manage,
+                as well as to cooperate in a team.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">// SKILLS</h3>
+              <p class="skills__text">
+                HTML5, CSS3, Flexbox and Grid, JavaScript, TypeScript, React
+                Redux, Redux Toolkit, Context API, RESTful API, Git, Figma
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="industry-languages">
+                <h3 class="industry__header">// INDUSTRY KNOWLEGE</h3>
+                <div class="industry__projects">
+                  <div class="industry__projects-header">
+                    <h3 class="industry__projects-header-name">
+                      Practice projects
+                    </h3>
+                  </div>
+
+                  <div class="industry__project">
+                    <span class="industry__project-description">
+                      Developed a dynamic food delivery application using React
+                      and implemented routing to enable navigation across
+                      different pages of the app. Created reusable and modular
+                      components. Leveraged of React hooks extensively to
+                      enhance component efficiency and manage state. Made use of
+                      Redux Toolkit for efficient state management and storage,
+                      simplifying data interactions:</span
+                    >
+                    <ul class="industry__project-github">
+                      <li>https://github.com/Iryna-kramar/food-delivery_app</li>
+                    </ul>
+                  </div>
+
+                  <div class="industry__project">
+                    <span class="industry__project-description">
+                      Built full-page websites using React functional
+                      reusability components, file structure and hooks. Creating
+                      a user interface using the Material UI, Fetching data
+                      using RapidAPI:
+                    </span>
+                    <ul class="industry__project-github">
+                      <li>https://github.com/Iryna-kramar/food-delivery_app</li>
+                    </ul>
+                  </div>
+
+                  <div class="industry__project">
+                    <span class="industry__project-description">
+                      Writing basic HTML pages, landing pages, cross-browser and
+                      responsive sites as my own pet projects that can find in
+                      my public repositories on GitHub
+                    </span>
+                  </div>
+                </div>
+                <div class="languages-info">
+                  <h3 class="languages-header">// LANGUAGE</h3>
+                  <p class="languages-item">English - Intermediate</p>
+                  <p class="languages-item">Ukrainian - Native</p>
+                </div>
+              </div>
+
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">
+                    // EDUCATION
+                  </h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2009 - 2015
+                    </span>
+                    <p class="additional-info__education-university-name">
+                      Taras Shevchenko National University
+                    </p>
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Mechanics and Mathematics Faculty
+                    </h3>
+                    <p class="additional-info__education-university-grade">
+                      Master of Statistics
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__experiences">
+                  <h3 class="additional-info__experiences-header">
+                    // EXPERIENCE
+                  </h3>
+                  <div class="additional-info__experiences__company">
+                    <p class="additional-info__experiences__company-role">
+                      Media Activations Lead
+                    </p>
+                    <h3 class="additional-info__eexperiences__company-name">
+                      CARAT Ukraine
+                    </h3>
+                    <span
+                      class="additional-info__experiences__company-durability"
+                      >08.2021 - now
+                    </span>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Responsible for the management, planning, organization,
+                        and coordination of communication projects and
+                        cross-media placement Lead media activations for various
+                        clients
+                      </li>
+                      <li>
+                        Collaborate with cross-functional teams, including
+                        creative, digital, and account management to deliver
+                        successful campaigns.
+                      </li>
+                      <li>
+                        Manage budgets and timelines, ensuring efficient use of
+                        resources.
+                      </li>
+                      <li>
+                        Continuously identify new media trends and technologies
+                        to implement in campaigns, improving overall performance
+                        and ROI.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="additional-info__experiences__company">
+                    <p class="additional-info__experiences__company-role">
+                      Account Manager
+                    </p>
+                    <h3 class="additional-info__eexperiences__company-name">
+                      CARAT Ukraine
+                    </h3>
+                    <span
+                      class="additional-info__experiences__company-durability"
+                      >07.2017 - 08.2021
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
